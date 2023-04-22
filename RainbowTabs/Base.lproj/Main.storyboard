@@ -43,7 +43,7 @@
         <!--Yellow-->
         <scene sceneID="Xix-mC-eKN">
             <objects>
-                <viewController id="he0-92-lzd" sceneMemberID="viewController">
+                <viewController id="he0-92-lzd" customClass="YellowViewController" customModule="RainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a13-U3-Y9S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
         <!--Green-->
         <scene sceneID="S54-Tq-J91">
             <objects>
-                <viewController title="Green" id="KtV-gS-Ri2" sceneMemberID="viewController">
+                <viewController title="Green" id="KtV-gS-Ri2" customClass="GreenViewController" customModule="RainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gPX-eF-i0P">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +75,7 @@
         <!--Blue-->
         <scene sceneID="HxB-LJ-Zc1">
             <objects>
-                <viewController id="Rz3-FE-Vk5" sceneMemberID="viewController">
+                <viewController id="Rz3-FE-Vk5" customClass="BlueViewController" customModule="RainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IM7-xQ-nqI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +91,7 @@
         <!--Purple-->
         <scene sceneID="6x1-nF-f9a">
             <objects>
-                <viewController title="Purple" id="svO-JB-xMR" sceneMemberID="viewController">
+                <viewController title="Purple" id="svO-JB-xMR" customClass="PurpleViewController" customModule="RainbowTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O4T-SS-yrW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,6 +110,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="tXP-pE-Oex" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HgB-WA-dl1">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <tabBarAppearance key="scrollEdgeAppearance"/>

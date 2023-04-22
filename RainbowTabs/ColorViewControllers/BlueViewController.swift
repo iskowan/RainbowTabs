@@ -1,13 +1,13 @@
 //
-//  YellowViewController.swift
+//  BlueViewController.swift
 //  RainbowTabs
 //
-//  Created by Anderson on 4/21/23.
+//  Created by Andrew Iskowitz on 4/22/23.
 //
 
 import UIKit
 
-class YellowViewController: UIViewController {
+class BlueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,9 +15,6 @@ class YellowViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-}
-
-
 
     /*
     // MARK: - Navigation
@@ -29,4 +26,4 @@ class YellowViewController: UIViewController {
     }
     */
 
-
+}

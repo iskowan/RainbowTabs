@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030FF8E329F4792D00C94AC9 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030FF8E229F4792D00C94AC9 /* BlueViewController.swift */; };
+		030FF8E529F4794200C94AC9 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030FF8E429F4794200C94AC9 /* PurpleViewController.swift */; };
 		712F319029F3017F00EEFFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F318F29F3017F00EEFFDE /* AppDelegate.swift */; };
 		712F319229F3017F00EEFFDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F319129F3017F00EEFFDE /* SceneDelegate.swift */; };
 		712F319429F3017F00EEFFDE /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F319329F3017F00EEFFDE /* RedViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030FF8E229F4792D00C94AC9 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		030FF8E429F4794200C94AC9 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 		712F318C29F3017F00EEFFDE /* RainbowTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712F318F29F3017F00EEFFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		712F319129F3017F00EEFFDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				712F31A329F3087E00EEFFDE /* OrangeViewController.swift */,
 				712F31A529F308B600EEFFDE /* YellowViewController.swift */,
 				712F31A829F308E100EEFFDE /* GreenViewController.swift */,
+				030FF8E229F4792D00C94AC9 /* BlueViewController.swift */,
+				030FF8E429F4794200C94AC9 /* PurpleViewController.swift */,
 			);
 			path = ColorViewControllers;
 			sourceTree = "<group>";
@@ -159,8 +165,10 @@
 				712F31A429F3087E00EEFFDE /* OrangeViewController.swift in Sources */,
 				712F319429F3017F00EEFFDE /* RedViewController.swift in Sources */,
 				712F319029F3017F00EEFFDE /* AppDelegate.swift in Sources */,
+				030FF8E529F4794200C94AC9 /* PurpleViewController.swift in Sources */,
 				712F319229F3017F00EEFFDE /* SceneDelegate.swift in Sources */,
 				712F31A629F308B600EEFFDE /* YellowViewController.swift in Sources */,
+				030FF8E329F4792D00C94AC9 /* BlueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
